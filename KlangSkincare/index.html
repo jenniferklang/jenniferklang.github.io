@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Professional skincare online" />
+    <title>KlangSkincare</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <div id="container">
+        <div class="navbar">
+          <div class="logo">
+            <img src="klang-logotype.png" alt="logotype" />
+          </div>
+          <nav>
+            <ul>
+              <li><a href="login.html">Log in</a></li>
+              <li><a href="Favorites">Favorites</a></li>
+              <li><a href="Shopping">Shop</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <h1>Beautyproducts online</h1>
+    </header>
+    <main>
+      <article>
+        <p>Scroll down to get started!</p>
+        <img src="bigyellowserum.jpeg" alt="serum" class="responsive" />
+
+        <div class="productcategories">
+          <h2>Beautycategories</h2>
+        </div>
+
+        <section>
+          <div id="products">
+            <div class="product">
+              <img src="prem-skincare.jpeg" alt="skincarenightmask" />
+              <a href="aboutprem.html"><h3>Do your selfcare at night!</h3></a>
+            </div>
+
+            <div class="product">
+              <img src="redlipstick.jpeg" alt="lipstickandglow" />
+              <a href="aboutlipstick.html"
+                ><h3>Choose something that pops!</h3></a
+              >
+            </div>
+
+            <div class="product">
+              <img src="serumampoule.jpeg" alt="serumampoule" />
+              <a href="aboutserum.html">
+                <h3>Don't forget to work from within!</h3>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <div class="nailproducts">
+          <picture>
+            <source media="(min-width: 980px)" srcset="rednails-original.jpg" />
+            <source media="(min-width: 600px)" srcset="rednails-medium.jpg" />
+            <source srcset="rednails-small.jpg" />
+            <img src="rednails-original.jpg" alt="rednailpolish" />
+          </picture>
+
+          <aside><h4>Sign up for newsletter and get 15% discount</h4></aside>
+          <form action="newaccount.php" method="POST">
+            <input name="email" type="text" placeholder="E-mail" />
+            <input name="password" type="text" placeholder="Password" />
+            <input type="submit" value="Create account" />
+          </form>
+        </div>
+        <footer>
+          <div id="footer-main">
+            <div class="footer-contact">
+              <ul>
+                <li><a href="Contact">Contact</a></li>
+                <li><a href="Aboutus">About us</a></li>
+                <li><a href="Information">Information</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-conditions"></div>
+          </div>
+        </footer>
+      </article>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+body {
+  background-color: #fcf5c7;
+}
+
+.mail-formular {
+  display: grid;
+  grid-gap: 2em;
+  background-color: #fdfadb;
+  align-items: center;
+  width: 100%;
+  /*margin-bottom: 0;*/
+}
+
+@media (min-width: 980px) {
+  .nailproducts {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

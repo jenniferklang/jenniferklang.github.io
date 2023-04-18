@@ -1,0 +1,22 @@
+body {
+    background-color: #FCF5C7;
+    }
+
+input[type=text] {
+    width: 50%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+  }
+
+  input[type=submit] {
+    width: 50%;
+    background-color: #DABEF5;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+
+  }

@@ -1,0 +1,154 @@
+body {
+  background-color: #fcf5c7;
+  color: black;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+
+#container {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+h1 {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+}
+
+h3 {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+}
+
+h4 {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+  font-size: 125%;
+}
+
+
+p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[type=text] {
+  width: 50%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  width: 50%;
+  background-color: #EE9480;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+}
+
+
+.responsive {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.logo {
+  width: 160px;
+}
+
+.productcategories {
+margin: 50px;
+}
+
+
+#products {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 70px 0;
+}
+
+#products .product {
+  width: 33.33%;
+}
+
+@media(max-width: 375px) {
+  #products .product {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+}
+
+.nailproducts {
+display: grid;
+grid-gap: 2em;
+background-color: #FDFADB;
+align-items: center;
+width: 100%;
+/*margin-bottom: 0;*/
+}
+
+
+@media (min-width: 980px) {
+.nailproducts {
+grid-template-columns: 1fr 1fr 1fr;
+}
+}
+
+#footer-main {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 2fr 1fr 1fr;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+height: 200px;
+background-color: #EDE9F0;
+background-image: linear-gradient(#EDE9F0, white);
+}
+
+li {
+display: flex;
+list-style-type: none;
+}
